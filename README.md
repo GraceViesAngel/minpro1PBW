@@ -67,7 +67,7 @@ Penjelasan :
 <img width="502" height="61" alt="image" src="https://github.com/user-attachments/assets/95a9aff6-c101-4161-8b39-3d36884785d6" />
 Penjelasan :
 
-* Pada bagian ini saya menggunakan class `container` agar isi konten tidak terlalu melebar ke pinggir layar. Kemudian `row` digunakan untuk membuat satu baris layout sebelum dibagi menjadi kolom. Class `col-lg-6` membuat tampilan terbagi dua pada layar besar, namun otomatis menjadi satu kolom pada layar kecil.
+* Pada bagian ini saya menggunakan class `container` agar isi konten tidak terlalu melebar ke pinggir layar. Kemudian `row` digunakan untuk membuat satu baris layout sebelum dibagi menjadi kolom.
 
 ---
 
