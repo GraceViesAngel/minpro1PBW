@@ -165,3 +165,7 @@ Penjelasan :
 
 Penjelasan : 
 * Pada bagian ini saya menambahkan efek ketika kursor diarahkan ke foto. Gambar akan sedikit terangkat dan membesar menggunakan transform, sehingga terlihat lebih interaktif. Selain itu, bayangan pada frame juga menjadi sedikit lebih besar saat di-hover. Efek ini saya buat agar tampilan website terasa lebih dinamis dan tidak statis.
+
+---
+### 🔹 Section About Me
+
