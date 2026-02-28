@@ -169,3 +169,94 @@ Penjelasan :
 ---
 ### 🔹 Section About Me
 
+### > Kode Section About Me
+
+Penjelasan :
+
+* Pada bagian About ini, saya membagi konten menjadi tiga kolom yaitu Deskripsi Diri, Skills, dan Pengalaman. Layout dibuat menggunakan sistem grid Bootstrap agar tampil sejajar di layar besar dan otomatis menyesuaikan di layar kecil. Struktur ini dibuat supaya informasi tentang diri saya tersusun rapi dan mudah dibaca.
+
+---
+
+1️⃣ Struktur Section About
+
+<img width="547" height="162" alt="Screenshot 2026-02-28 232252" src="https://github.com/user-attachments/assets/c0f47195-28ae-4664-ab57-9c4d06f73ee1" />
+
+
+Penjelasan :
+
+* Pada bagian ini saya membuat <section id="about" supaya bisa terhubung dengan menu navigasi di navbar. Class about-section digunakan untuk memberi styling khusus lewat CSS, seperti background dan jarak section. Di dalamnya saya pakai container agar isi tidak terlalu melebar ke pinggir layar. Lalu judul About Me saya buat dengan h2 dan class section-title text-center supaya tampil besar dan berada di tengah. Class row mt-5 dipakai untuk membuat satu baris layout dengan jarak atas agar tidak terlalu mepet dengan judul.
+
+---
+
+2️⃣ Kolom Deskripsi Diri
+
+<img width="754" height="392" alt="Screenshot 2026-02-28 232309" src="https://github.com/user-attachments/assets/44b4c3cc-953b-44d4-a825-a1609b8012f1" />
+
+Penjelasan :
+
+* Bagian ini adalah kolom pertama dengan col-md-4 mb-4. Artinya, di layar medium ke atas akan mengambil 1/3 lebar layar, dan mb-4 memberi jarak bawah agar rapi saat turun ke bawah di layar kecil. Saya memakai about-card supaya tampilannya berbentuk card dan konsisten dengan kolom lainnya. Di dalamnya ada h4 sebagai judul dan p untuk isi deskripsi diri saya.
+
+---
+
+3️⃣ Kolom Skills (Dengan Vue)
+
+<img width="693" height="392" alt="Screenshot 2026-02-28 232328" src="https://github.com/user-attachments/assets/fed2e798-1a1e-4f99-bc65-b7aaecbe83d6" />
+
+Penjelasan:
+
+* Ini kolom kedua, masih pakai col-md-4 mb-4 supaya sejajar dengan kolom lain. Bagian ini menampilkan daftar skill menggunakan v-for="skill in skills", artinya data diambil dari Vue dan ditampilkan secara otomatis berdasarkan isi array skills. Jadi kalau saya tambah data skill, tampilannya ikut bertambah tanpa ubah HTML. Progress bar dibuat dengan skill-bar dan skill-fill. Lebarnya diatur pakai :style="{ width: skill.percent + '%' }" supaya menyesuaikan nilai persen dari data. Angka persen juga ditampilkan di dalam <span>.
+
+---
+
+4️⃣ Kolom Pengalaman
+
+<img width="907" height="415" alt="Screenshot 2026-02-28 232348" src="https://github.com/user-attachments/assets/035b0b44-c12c-48cd-8778-89f42eb1f244" />
+
+Penjelasan:
+
+* Ini kolom ketiga dengan struktur yang sama agar desainnya konsisten. Judul dibuat dengan h4 Pengalaman h4, lalu isi pengalaman ditampilkan dalam bentuk ul dan li supaya tersusun rapi seperti daftar. Saya memilih list karena lebih mudah dibaca dibanding paragraf panjang. Semua tetap dibungkus dengan about-card supaya tampilannya seragam dengan bagian Deskripsi dan Skills.
+
+---
+
+### Styling Section About (CSS)
+
+
+1️⃣ CSS .about-section
+
+<img width="672" height="785" alt="Screenshot 2026-02-28 233409" src="https://github.com/user-attachments/assets/398a5bdc-727b-4068-99a3-128c1dfe5a50" />
+
+Penjelasan:
+
+* Pada bagian ini saya mengatur tampilan utama section About. Background menggunakan kombinasi warna gradient agar terlihat lebih hidup. Saya juga menambahkan animasi gradientMove supaya background tidak statis, melainkan bergerak secara halus. Padding digunakan untuk memberi jarak atas dan bawah agar konten tidak terlalu rapat. Pseudo-element ::before saya gunakan sebagai elemen dekoratif berupa efek cahaya blur di sudut section, tanpa perlu menambah elemen HTML baru.
+
+2️⃣ CSS Skills Bar
+
+
+<img width="399" height="856" alt="Screenshot 2026-02-28 233438" src="https://github.com/user-attachments/assets/2ff492e0-b61b-4f34-86d3-ee85e76ab5bd" />
+
+Penjelasan :
+
+* Pada bagian ini saya mengatur tampilan progress bar pada kolom Skills. Class .skill-bar berfungsi sebagai wadah, sedangkan .skill-fill adalah bagian yang menunjukkan persentase kemampuan. Lebar .skill-fill mengikuti data dari Vue, sehingga bisa berubah sesuai nilai yang diberikan. Saya juga menambahkan animasi agar bar terlihat terisi secara bertahap saat muncul.
+
+3️⃣ CSS About Card
+
+
+<img width="343" height="838" alt="Screenshot 2026-02-28 233511" src="https://github.com/user-attachments/assets/bcf153a2-4859-4170-90c6-9f3434fc18da" />
+
+Penjelasan:
+
+* Class .about-card digunakan sebagai tempat untuk Deskripsi, Skills, dan Pengalaman. Saya memberikan efek transparan dan blur agar tampilannya lebih modern. Box-shadow dan border-radius membuat card terlihat lebih lembut.Efek hover ditambahkan agar card sedikit terangkat saat disentuh kursor, sehingga tampilan lebih keren.
+
+---
+
+### 🔹 Section Certificates
+
+### > Kode Section Certificates
+
+<img width="842" height="703" alt="Screenshot 2026-02-28 234512" src="https://github.com/user-attachments/assets/c744cd10-0c21-46e5-93cd-614c9138f4f2" />
+
+
+Penjelasan :
+
+* Pada bagian ini saya membuat section certificates untuk menampilkan daftar sertifikat yang pernah saya peroleh. Section ini dibuat terpisah agar lebih rapi dan mudah diakses melalui menu navigasi. Struktur layout menggunakan container dan sistem grid Bootstrap supaya tampilannya tetap teratur dan responsif. Setiap sertifikat ditampilkan menggunakan perulangan v-for dari Vue, sehingga data bisa ditambahkan langsung dari bagian JavaScript tanpa perlu menulis ulang kode HTML. Di dalam setiap item terdapat gambar sertifikat, tombol detail untuk melihat lebih detail isi dari sertifikat yang saya peroleh
+
