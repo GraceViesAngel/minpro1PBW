@@ -65,9 +65,26 @@ Penjelasan :
 ---
 
 <img width="502" height="61" alt="image" src="https://github.com/user-attachments/assets/95a9aff6-c101-4161-8b39-3d36884785d6" />
+
 Penjelasan :
 
 * Pada bagian ini saya menggunakan class `container` agar isi konten tidak terlalu melebar ke pinggir layar. Kemudian `row` digunakan untuk membuat satu baris layout sebelum dibagi menjadi kolom.
+
+---
+
+<img width="755" height="272" alt="image" src="https://github.com/user-attachments/assets/3165adb5-aa2b-439f-98d4-0b014a325674" />
+
+Penjelasan :
+
+* Pada bagian ini saya membuat kolom pertama menggunakan col-lg-6, supaya di layar besar tampil setengah layar. Isi kolom ini adalah nama, role, dan deskripsi singkat tentang diri saya. Tag <h1> digunakan untuk menampilkan nama sebagai judul utama. Bagian {{ name }} saya pakai karena menggunakan Vue, jadi namanya bisa diatur dari data. Lalu <h2> untuk menampilkan bidang yang saya tekuni. Sedangkan <p> berisi deskripsi singkat, dan class yang digunakan mengatur ukuran serta jarak teks supaya enak dibaca.
+
+---
+
+<img width="602" height="142" alt="image" src="https://github.com/user-attachments/assets/41a08e0a-80aa-4fde-b478-1a87bdee5d6f" />
+
+Penjelasan:
+
+* Disini saya juga memakai col-lg-6, supaya sejajar dengan kolom teks di layar besar. Class text-center dipakai agar foto berada di tengah, dan juga foto pdh saya memakai <div class="image-wrapper"> supaya bisa diberi styling seperti background, bayangan, dan efek hover lewat CSS. Lalu tag <img> digunakan untuk menampilkan gambar profil, dengan img-fluid agar ukurannya tetap responsif mengikuti layar.
 
 ---
 
