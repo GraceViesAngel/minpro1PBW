@@ -58,11 +58,9 @@ Bagian ini berfungsi sebagai kerangka utama halaman website. Meta viewport digun
 
 <img width="801" height="579" alt="image" src="https://github.com/user-attachments/assets/1a872c08-45c8-4430-b456-79f31ca3e7f7" />
 
-Pada bagian Home ini, saya membuat satu section utama dengan id home supaya bisa terhubung langsung dengan menu navigasi di atas. Jadi ketika tombol “Home” diklik, halaman akan langsung scroll ke bagian ini tanpa perlu pindah halaman.
+Penjelasan :
 
-Struktur layout-nya saya bagi menjadi dua kolom menggunakan sistem grid dari Bootstrap. Kolom pertama berisi teks seperti nama, role, dan deskripsi singkat tentang diri saya. Sedangkan kolom kedua digunakan untuk menampilkan foto profil. Dengan pembagian seperti ini, tampilan terlihat lebih seimbang antara teks dan gambar.
-
-Saya juga menggunakan class container dan row agar isi konten tetap rapi dan menyesuaikan ukuran layar. Kalau dibuka di laptop tampil berdampingan, tapi kalau di HP otomatis menjadi satu kolom. Jadi tampilannya tetap nyaman dilihat di berbagai perangkat.
+* Pada bagian Home ini, saya membuat satu section utama dengan id home supaya bisa terhubung langsung dengan menu navigasi di atas. Jadi ketika tombol “Home” diklik, halaman akan langsung scroll ke bagian ini tanpa perlu pindah halaman. Struktur layout-nya saya bagi menjadi dua kolom menggunakan sistem grid dari Bootstrap. Kolom pertama berisi teks seperti nama, role, dan deskripsi singkat tentang diri saya. Sedangkan kolom kedua digunakan untuk menampilkan foto profil. Dengan pembagian seperti ini, tampilan terlihat lebih seimbang antara teks dan gambar. Saya juga menggunakan class container dan row agar isi konten tetap rapi dan menyesuaikan ukuran layar. Kalau dibuka di laptop tampil berdampingan, tapi kalau di HP otomatis menjadi satu kolom. Jadi tampilannya tetap nyaman dilihat di berbagai perangkat.
 
 ---
 
