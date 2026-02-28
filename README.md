@@ -87,5 +87,4 @@ Pada bagian ::after, saya menambahkan efek gradasi di bagian bawah foto. Gradasi
 
 <img width="430" height="178" alt="image" src="https://github.com/user-attachments/assets/dabd96f4-6bbf-4b9f-8760-2771e3977327" />
 
-* <img width="430" height="178" alt="image" src="https://github.com/user-attachments/assets/dabd96f4-6bbf-4b9f-8760-2771e3977327" />
-Pada bagian ini saya menambahkan efek ketika kursor diarahkan ke foto. Gambar akan sedikit terangkat dan membesar menggunakan transform, sehingga terlihat lebih interaktif. Selain itu, bayangan pada frame juga menjadi sedikit lebih besar saat di-hover. Efek ini saya buat agar tampilan website terasa lebih dinamis dan tidak statis.
+* <img width="430" height="178" alt="image" src="https://github.com/user-attachments/assets/dabd96f4-6bbf-4b9f-8760-2771e3977327" />     Pada bagian ini saya menambahkan efek ketika kursor diarahkan ke foto. Gambar akan sedikit terangkat dan membesar menggunakan transform, sehingga terlihat lebih interaktif. Selain itu, bayangan pada frame juga menjadi sedikit lebih besar saat di-hover. Efek ini saya buat agar tampilan website terasa lebih dinamis dan tidak statis.
