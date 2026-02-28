@@ -54,7 +54,7 @@ Bagian ini berfungsi sebagai kerangka utama halaman website. Meta viewport digun
 
 ### 🔹 Section Home
 
-#### > Kode Section Home (Hero Section)
+### > Kode Section Home (Hero Section)
 
 <img width="801" height="579" alt="image" src="https://github.com/user-attachments/assets/1a872c08-45c8-4430-b456-79f31ca3e7f7" />
 
@@ -89,7 +89,7 @@ Penjelasan:
 
 ---
 
-#### > Styling Hero Section (CSS)
+### > Styling Hero Section (CSS)
 
 1️⃣ CSS .hero-section
 
@@ -135,7 +135,7 @@ Penjelasan :
 
 ---
 
-#### > Kode Tampilan Foto (Hero Image Styling – CSS)
+### > Kode Tampilan Foto (Hero Image Styling – CSS)
 
 <img width="447" height="346" alt="image" src="https://github.com/user-attachments/assets/10f18a26-ea18-4fc9-9d30-d51ba3f23e9e" />
 
