@@ -78,6 +78,7 @@ Penjelasan :
 
 * Pada bagian ini saya membuat kolom pertama menggunakan col-lg-6, supaya di layar besar tampil setengah layar. Isi kolom ini adalah nama, role, dan deskripsi singkat tentang diri saya. Tag <h1> digunakan untuk menampilkan nama sebagai judul utama. Bagian {{ name }} saya pakai karena menggunakan Vue, jadi namanya bisa diatur dari data. Lalu <h2> untuk menampilkan bidang yang saya tekuni. Sedangkan <p> berisi deskripsi singkat, dan class yang digunakan mengatur ukuran serta jarak teks supaya enak dibaca.
 
+
 ---
 
 <img width="602" height="142" alt="image" src="https://github.com/user-attachments/assets/41a08e0a-80aa-4fde-b478-1a87bdee5d6f" />
@@ -85,6 +86,52 @@ Penjelasan :
 Penjelasan:
 
 * Disini saya juga memakai col-lg-6, supaya sejajar dengan kolom teks di layar besar. Class text-center dipakai agar foto berada di tengah, dan juga foto pdh saya memakai <div class="image-wrapper"> supaya bisa diberi styling seperti background, bayangan, dan efek hover lewat CSS. Lalu tag <img> digunakan untuk menampilkan gambar profil, dengan img-fluid agar ukurannya tetap responsif mengikuti layar.
+
+---
+
+#### > Styling Hero Section (CSS)
+
+1️⃣ CSS .hero-section
+
+
+<img width="253" height="114" alt="image" src="https://github.com/user-attachments/assets/c2510d68-c275-42b7-8f30-5d348956d4f9" />
+
+
+Penjelasan :
+
+* Class .hero-section saya gunakan untuk mengatur jarak atas dan bawah pada bagian Home. Saya menambahkan padding-top dan padding-bottom agar konten tidak terlalu mepet dengan navbar di atas maupun section berikutnya di bawah. Dengan jarak ini, tampilan Hero terlihat lebih lega dan nyaman dilihat.
+
+---
+
+2️⃣ CSS .hero-title
+
+<img width="358" height="179" alt="image" src="https://github.com/user-attachments/assets/036955a3-b9e9-4d71-99a6-cf3eaf930755" />
+
+Penjelasan :
+
+* Class .hero-title digunakan untuk mengatur tampilan nama pada bagian Hero. Saya memperbesar ukuran font agar menjadi fokus utama saat halaman dibuka. font-weight: 900 membuat teks terlihat tebal dan kuat. Warna biru dipilih agar sesuai dengan tema website. Properti text-shadow saya tambahkan untuk memberi efek bayangan sehingga teks terlihat lebih menarik dan tidak terlalu datar.
+
+---
+
+3️⃣ CSS .hero-role
+
+<img width="226" height="179" alt="image" src="https://github.com/user-attachments/assets/1385138d-fd15-4d05-be57-84514713e4d5" />
+
+
+Penjelasan :
+
+* Class .hero-role digunakan untuk menampilkan role atau bidang yang saya tekuni. Ukurannya lebih kecil dari nama agar tetap menjadi informasi pendukung. Warna dibuat sedikit lebih terang supaya tetap selaras dengan tema. Saya juga menggunakan text-align: center agar teks berada di tengah dan terlihat seimbang dengan elemen lainnya.
+
+---
+
+4️⃣ CSS .hero-desc
+
+<img width="230" height="178" alt="image" src="https://github.com/user-attachments/assets/d6babb4a-df46-430a-a8e9-540bc83cb811" />
+
+
+Penjelasan :
+
+* Class .hero-desc digunakan untuk paragraf deskripsi singkat. Saya membatasi lebar teks dengan max-width agar tidak terlalu panjang ke samping sehingga lebih mudah dibaca. line-height saya atur supaya jarak antar baris lebih nyaman dilihat. Posisi teks dibuat rata tengah agar tampilannya lebih rapi dan seimbang dengan judul di atasnya.
 
 ---
 
@@ -101,6 +148,7 @@ Penjelasan :
 <img width="357" height="321" alt="image" src="https://github.com/user-attachments/assets/2e00c9d3-388b-4d3e-9002-67598db31ee4" />
 
 Penjelasan :
+
 * Bagian ini saya gunakan untuk membuat efek cahaya di belakang foto. Elemen ::before adalah pseudo-element yang berfungsi sebagai dekorasi tambahan tanpa harus menambah elemen HTML baru. Saya menggunakan radial-gradient dengan warna putih transparan agar terlihat seperti pantulan cahaya. Efek blur ditambahkan supaya tampilannya lebih halus dan tidak terlalu tajam. Tujuannya agar foto terlihat lebih hidup dan tidak kaku.
 
 ---
@@ -108,6 +156,7 @@ Penjelasan :
 <img width="383" height="349" alt="image" src="https://github.com/user-attachments/assets/ccdc3a36-cb99-4939-8c4e-9bd5a9dc3c8c" />
 
 Penjelasan :
+
 * Pada bagian ::after, saya menambahkan efek gradasi di bagian bawah foto. Gradasi ini dibuat menggunakan linear-gradient agar bagian bawah gambar terlihat menyatu dengan background. Efek ini juga membantu memberikan kesan transisi yang lebih halus antara foto dan frame. Properti pointer-events: none digunakan agar elemen dekoratif ini tidak mengganggu interaksi pengguna.
 
 ---
