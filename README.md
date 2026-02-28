@@ -76,8 +76,7 @@ Penjelasan :
 
 Penjelasan :
 
-* Pada bagian ini saya membuat kolom pertama menggunakan col-lg-6, supaya di layar besar tampil setengah layar. Isi kolom ini adalah nama, role, dan deskripsi singkat tentang diri saya.
-* Tag <h1> digunakan untuk menampilkan nama sebagai judul utama. Bagian {{ name }} saya pakai karena menggunakan Vue, jadi namanya bisa diatur dari data. Lalu <h2> untuk menampilkan bidang yang saya tekuni. Sedangkan <p> berisi deskripsi singkat, dan class yang digunakan mengatur ukuran serta jarak teks supaya enak dibaca.
+* Pada bagian ini saya membuat kolom pertama menggunakan col-lg-6, supaya di layar besar tampil setengah layar. Isi kolom ini adalah nama, role, dan deskripsi singkat tentang diri saya. Tag h1 digunakan untuk menampilkan nama sebagai judul utama. Bagian {{ name }} saya pakai karena menggunakan Vue, jadi namanya bisa diatur dari data. Lalu h2 untuk menampilkan bidang yang saya tekuni. Sedangkan p berisi deskripsi singkat, dan class yang digunakan mengatur ukuran serta jarak teks supaya enak dibaca.
 
 
 ---
