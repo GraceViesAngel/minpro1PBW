@@ -5,13 +5,9 @@
 
 # 📌 Deskripsi Project
 
-Website ini merupakan project portfolio pribadi yang saya buat sebagai bagian dari tugas mata kuliah Pemrograman Berbasis Web. Website ini berisi informasi mengenai diri saya, mulai dari perkenalan singkat, kemampuan yang saya miliki, pengalaman organisasi, hingga sertifikat yang pernah saya peroleh.
-
-Tujuan dari pembuatan website ini adalah untuk menampilkan profil diri dalam bentuk website yang terstruktur dan responsif. Saya mencoba membuat tampilan yang sederhana tetapi tetap menarik dengan dominasi warna biru agar terlihat profesional dan tidak terlalu ramai.
+Website ini merupakan project portfolio pribadi yang saya buat sebagai bagian dari tugas mata kuliah Pemrograman Berbasis Web. Website ini berisi informasi mengenai diri saya, mulai dari perkenalan singkat, kemampuan yang saya miliki, pengalaman organisasi, hingga sertifikat yang pernah saya peroleh. Tujuan dari pembuatan website ini untuk menampilkan profil diri dalam bentuk website yang terstruktur dan responsif.
 
 Dalam proses pembuatannya, saya menggunakan HTML sebagai struktur utama halaman, CSS untuk mengatur tampilan visual, Bootstrap 5 untuk membantu pengaturan layout agar responsif, serta Vue JS untuk menampilkan beberapa data seperti skills dan sertifikat secara lebih terstruktur.
-
-Website ini bersifat statis karena seluruh data ditulis langsung di dalam file tanpa menggunakan database maupun backend.
 
 ---
 
@@ -45,3 +41,51 @@ Section Certificates menampilkan daftar sertifikat yang pernah saya peroleh. Set
 
 
 ---
+
+# Penjelasan Code Setiap Section
+
+## 🔹 Struktur Dasar HTML
+
+Website ini diawali dengan struktur dasar HTML seperti berikut:
+Bagian ini berfungsi sebagai kerangka utama halaman website. Meta viewport digunakan agar tampilan bisa menyesuaikan ukuran layar perangkat.
+
+<img width="719" height="164" alt="image" src="https://github.com/user-attachments/assets/13f8150b-7d02-48ae-a172-ee3e0e9f4de0" />
+
+
+## 🔹 Section Home
+
+### > Kode Section Home (Hero Section)
+
+<img width="801" height="579" alt="image" src="https://github.com/user-attachments/assets/1a872c08-45c8-4430-b456-79f31ca3e7f7" />
+
+Pada bagian Home ini, saya membuat satu section utama dengan id home supaya bisa terhubung langsung dengan menu navigasi di atas. Jadi ketika tombol “Home” diklik, halaman akan langsung scroll ke bagian ini tanpa perlu pindah halaman.
+
+Struktur layout-nya saya bagi menjadi dua kolom menggunakan sistem grid dari Bootstrap. Kolom pertama berisi teks seperti nama, role, dan deskripsi singkat tentang diri saya. Sedangkan kolom kedua digunakan untuk menampilkan foto profil. Dengan pembagian seperti ini, tampilan terlihat lebih seimbang antara teks dan gambar.
+
+Saya juga menggunakan class container dan row agar isi konten tetap rapi dan menyesuaikan ukuran layar. Kalau dibuka di laptop tampil berdampingan, tapi kalau di HP otomatis menjadi satu kolom. Jadi tampilannya tetap nyaman dilihat di berbagai perangkat.
+
+---
+
+### > Kode Tampilan Foto (Hero Image Styling – CSS)
+
+<img width="447" height="346" alt="image" src="https://github.com/user-attachments/assets/10f18a26-ea18-4fc9-9d30-d51ba3f23e9e" />
+
+Pada bagian ini saya membuat wadah atau frame untuk foto profil menggunakan class .image-wrapper. Saya mengatur ukuran tetap 350px agar bentuknya konsisten dan tidak berubah-ubah. Warna background biru digunakan supaya selaras dengan tema website. Saya menggunakan display: flex agar posisi gambar berada di tengah secara horizontal dan berada di bagian bawah frame. Properti box-shadow saya tambahkan untuk memberi efek bayangan sehingga tampilannya tidak terlihat datar. Kemudian overflow: hidden digunakan supaya bagian gambar yang keluar dari frame tidak terlihat.
+
+---
+
+<img width="357" height="321" alt="image" src="https://github.com/user-attachments/assets/2e00c9d3-388b-4d3e-9002-67598db31ee4" />
+
+Bagian ini saya gunakan untuk membuat efek cahaya di belakang foto. Elemen ::before adalah pseudo-element yang berfungsi sebagai dekorasi tambahan tanpa harus menambah elemen HTML baru. Saya menggunakan radial-gradient dengan warna putih transparan agar terlihat seperti pantulan cahaya. Efek blur ditambahkan supaya tampilannya lebih halus dan tidak terlalu tajam. Tujuannya agar foto terlihat lebih hidup dan tidak kaku.
+
+---
+
+<img width="383" height="349" alt="image" src="https://github.com/user-attachments/assets/ccdc3a36-cb99-4939-8c4e-9bd5a9dc3c8c" />
+
+Pada bagian ::after, saya menambahkan efek gradasi di bagian bawah foto. Gradasi ini dibuat menggunakan linear-gradient agar bagian bawah gambar terlihat menyatu dengan background. Efek ini juga membantu memberikan kesan transisi yang lebih halus antara foto dan frame. Properti pointer-events: none digunakan agar elemen dekoratif ini tidak mengganggu interaksi pengguna.
+
+---
+
+<img width="430" height="178" alt="image" src="https://github.com/user-attachments/assets/dabd96f4-6bbf-4b9f-8760-2771e3977327" />
+
+Pada bagian ini saya menambahkan efek ketika kursor diarahkan ke foto. Gambar akan sedikit terangkat dan membesar menggunakan transform, sehingga terlihat lebih interaktif. Selain itu, bayangan pada frame juga menjadi sedikit lebih besar saat di-hover. Efek ini saya buat agar tampilan website terasa lebih dinamis dan tidak statis.
