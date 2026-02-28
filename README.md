@@ -62,8 +62,7 @@ Penjelasan :
 
 * Pada bagian Home ini, saya membuat satu section utama dengan id home supaya bisa terhubung langsung dengan menu navigasi di atas. Jadi ketika tombol “Home” diklik, halaman akan langsung scroll ke bagian ini tanpa perlu pindah halaman. Struktur layout-nya saya bagi menjadi dua kolom menggunakan sistem grid dari Bootstrap. Kolom pertama berisi teks seperti nama, role, dan deskripsi singkat tentang diri saya. Sedangkan kolom kedua digunakan untuk menampilkan foto profil. Dengan pembagian seperti ini, tampilan terlihat lebih seimbang antara teks dan gambar. Saya juga menggunakan class container dan row agar isi konten tetap rapi dan menyesuaikan ukuran layar. Kalau dibuka di laptop tampil berdampingan, tapi kalau di HP otomatis menjadi satu kolom. Jadi tampilannya tetap nyaman dilihat di berbagai perangkat.
 
-> <img width="502" height="61" alt="image" src="https://github.com/user-attachments/assets/95a9aff6-c101-4161-8b39-3d36884785d6" />
-
+* > <img width="502" height="61" alt="image" src="https://github.com/user-attachments/assets/95a9aff6-c101-4161-8b39-3d36884785d6" />
 > Penjelasan :
 > Pada bagian ini saya menggunakan class `container` agar isi konten tidak terlalu melebar ke pinggir layar. Kemudian `row` digunakan untuk membuat satu baris layout sebelum dibagi menjadi kolom. Class `col-lg-6` membuat tampilan terbagi dua pada layar besar, namun otomatis menjadi satu kolom pada layar kecil.
 
