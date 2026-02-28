@@ -68,21 +68,26 @@ Penjelasan :
 
 <img width="447" height="346" alt="image" src="https://github.com/user-attachments/assets/10f18a26-ea18-4fc9-9d30-d51ba3f23e9e" />
 
-Pada bagian ini saya membuat wadah atau frame untuk foto profil menggunakan class .image-wrapper. Saya mengatur ukuran tetap 350px agar bentuknya konsisten dan tidak berubah-ubah. Warna background biru digunakan supaya selaras dengan tema website. Saya menggunakan display: flex agar posisi gambar berada di tengah secara horizontal dan berada di bagian bawah frame. Properti box-shadow saya tambahkan untuk memberi efek bayangan sehingga tampilannya tidak terlihat datar. Kemudian overflow: hidden digunakan supaya bagian gambar yang keluar dari frame tidak terlihat.
+Penjelasan :
+
+* Pada bagian ini saya membuat wadah atau frame untuk foto profil menggunakan class .image-wrapper. Saya mengatur ukuran tetap 350px agar bentuknya konsisten dan tidak berubah-ubah. Warna background biru digunakan supaya selaras dengan tema website. Saya menggunakan display: flex agar posisi gambar berada di tengah secara horizontal dan berada di bagian bawah frame. Properti box-shadow saya tambahkan untuk memberi efek bayangan sehingga tampilannya tidak terlihat datar. Kemudian overflow: hidden digunakan supaya bagian gambar yang keluar dari frame tidak terlihat.
 
 ---
 
 <img width="357" height="321" alt="image" src="https://github.com/user-attachments/assets/2e00c9d3-388b-4d3e-9002-67598db31ee4" />
 
-Bagian ini saya gunakan untuk membuat efek cahaya di belakang foto. Elemen ::before adalah pseudo-element yang berfungsi sebagai dekorasi tambahan tanpa harus menambah elemen HTML baru. Saya menggunakan radial-gradient dengan warna putih transparan agar terlihat seperti pantulan cahaya. Efek blur ditambahkan supaya tampilannya lebih halus dan tidak terlalu tajam. Tujuannya agar foto terlihat lebih hidup dan tidak kaku.
+Penjelasan :
+* Bagian ini saya gunakan untuk membuat efek cahaya di belakang foto. Elemen ::before adalah pseudo-element yang berfungsi sebagai dekorasi tambahan tanpa harus menambah elemen HTML baru. Saya menggunakan radial-gradient dengan warna putih transparan agar terlihat seperti pantulan cahaya. Efek blur ditambahkan supaya tampilannya lebih halus dan tidak terlalu tajam. Tujuannya agar foto terlihat lebih hidup dan tidak kaku.
 
 ---
 
 <img width="383" height="349" alt="image" src="https://github.com/user-attachments/assets/ccdc3a36-cb99-4939-8c4e-9bd5a9dc3c8c" />
 
-Pada bagian ::after, saya menambahkan efek gradasi di bagian bawah foto. Gradasi ini dibuat menggunakan linear-gradient agar bagian bawah gambar terlihat menyatu dengan background. Efek ini juga membantu memberikan kesan transisi yang lebih halus antara foto dan frame. Properti pointer-events: none digunakan agar elemen dekoratif ini tidak mengganggu interaksi pengguna.
+Penjelasan :
+* Pada bagian ::after, saya menambahkan efek gradasi di bagian bawah foto. Gradasi ini dibuat menggunakan linear-gradient agar bagian bawah gambar terlihat menyatu dengan background. Efek ini juga membantu memberikan kesan transisi yang lebih halus antara foto dan frame. Properti pointer-events: none digunakan agar elemen dekoratif ini tidak mengganggu interaksi pengguna.
 
 
 <img width="430" height="178" alt="image" src="https://github.com/user-attachments/assets/dabd96f4-6bbf-4b9f-8760-2771e3977327" />
 
-* <img width="430" height="178" alt="image" src="https://github.com/user-attachments/assets/dabd96f4-6bbf-4b9f-8760-2771e3977327" />     Pada bagian ini saya menambahkan efek ketika kursor diarahkan ke foto. Gambar akan sedikit terangkat dan membesar menggunakan transform, sehingga terlihat lebih interaktif. Selain itu, bayangan pada frame juga menjadi sedikit lebih besar saat di-hover. Efek ini saya buat agar tampilan website terasa lebih dinamis dan tidak statis.
+Penjelasan : 
+* Pada bagian ini saya menambahkan efek ketika kursor diarahkan ke foto. Gambar akan sedikit terangkat dan membesar menggunakan transform, sehingga terlihat lebih interaktif. Selain itu, bayangan pada frame juga menjadi sedikit lebih besar saat di-hover. Efek ini saya buat agar tampilan website terasa lebih dinamis dan tidak statis.
