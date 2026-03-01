@@ -1,5 +1,9 @@
-# 🌐 Portfolio Website  
-## Grace Vies Angel – Sistem Informasi  
+# <h1 align="center">🌐 Portfolio Website</h1>
+
+
+## NAMA : Grace Vies Angel 
+## NIM : 2409116005
+## KELAS : A'2024
 
 ---
 
@@ -220,7 +224,7 @@ Penjelasan:
 
 ---
 
-### Styling Section About (CSS)
+### > Styling Section About (CSS)
 
 
 1️⃣ CSS .about-section
@@ -231,6 +235,8 @@ Penjelasan:
 
 * Pada bagian ini saya mengatur tampilan utama section About. Background menggunakan kombinasi warna gradient agar terlihat lebih hidup. Saya juga menambahkan animasi gradientMove supaya background tidak statis, melainkan bergerak secara halus. Padding digunakan untuk memberi jarak atas dan bawah agar konten tidak terlalu rapat. Pseudo-element ::before saya gunakan sebagai elemen dekoratif berupa efek cahaya blur di sudut section, tanpa perlu menambah elemen HTML baru.
 
+---
+
 2️⃣ CSS Skills Bar
 
 
@@ -239,6 +245,8 @@ Penjelasan:
 Penjelasan :
 
 * Pada bagian ini saya mengatur tampilan progress bar pada kolom Skills. Class .skill-bar berfungsi sebagai wadah, sedangkan .skill-fill adalah bagian yang menunjukkan persentase kemampuan. Lebar .skill-fill mengikuti data dari Vue, sehingga bisa berubah sesuai nilai yang diberikan. Saya juga menambahkan animasi agar bar terlihat terisi secara bertahap saat muncul.
+
+---
 
 3️⃣ CSS About Card
 
@@ -263,6 +271,7 @@ Penjelasan :
 * Pada bagian ini saya membuat section certificates untuk menampilkan daftar sertifikat yang pernah saya peroleh. Section ini dibuat terpisah agar lebih rapi dan mudah diakses melalui menu navigasi. Struktur layout menggunakan container dan sistem grid Bootstrap supaya tampilannya tetap teratur dan responsif. Setiap sertifikat ditampilkan menggunakan perulangan v-for dari Vue, sehingga data bisa ditambahkan langsung dari bagian JavaScript tanpa perlu menulis ulang kode HTML. Di dalam setiap item terdapat gambar sertifikat, tombol detail untuk melihat lebih detail isi dari sertifikat yang saya peroleh
 
 ---
+
 ### Styling Section Certificates (CSS)
 
 
@@ -272,7 +281,7 @@ Penjelasan :
 
 Penjelasan :
 
-Class .cert-item digunakan sebagai wadah utama untuk setiap sertifikat. Saya memberikan background transparan dan efek blur agar tampilannya terlihat lebih modern. Border-radius dan box-shadow ditambahkan supaya card tidak terlihat datar.
+* Class .cert-item digunakan sebagai wadah utama untuk setiap sertifikat. Saya memberikan background transparan dan efek blur agar tampilannya terlihat lebih modern. Border-radius dan box-shadow ditambahkan supaya card tidak terlihat datar.
 
 ---
 
@@ -283,7 +292,7 @@ Class .cert-item digunakan sebagai wadah utama untuk setiap sertifikat. Saya mem
 
 Penjelasan :
 
-Class .cert-img digunakan untuk mengatur sudut gambar agar sedikit membulat dan diberi bayangan. Efek hover ditambahkan supaya gambar sedikit membesar saat diarahkan kursor, sehingga terlihat lebih interaktif.
+* Class .cert-img digunakan untuk mengatur sudut gambar agar sedikit membulat dan diberi bayangan. Efek hover ditambahkan supaya gambar sedikit membesar saat diarahkan kursor, sehingga terlihat lebih interaktif.
 
 ---
 
@@ -293,7 +302,7 @@ Class .cert-img digunakan untuk mengatur sudut gambar agar sedikit membulat dan 
 
 Penjelasan :
 
-Class .detail-btn digunakan untuk mengatur tampilan tombol detail. Saya menambahkan border, warna background, serta efek hover agar tombol berubah warna ketika disentuh kursor. Ini bertujuan supaya tombol terlihat jelas dan mudah dikenali.
+* Class .detail-btn digunakan untuk mengatur tampilan tombol detail. Saya menambahkan border, warna background, serta efek hover agar tombol berubah warna ketika disentuh kursor. Ini bertujuan supaya tombol terlihat jelas dan mudah dikenali.
 
 ---
 
@@ -303,8 +312,9 @@ Class .detail-btn digunakan untuk mengatur tampilan tombol detail. Saya menambah
 
 Penjelasan :
 
-Bagian ini mengatur animasi saat modal muncul. Saya menggunakan efek scale agar modal terlihat muncul secara halus. Gambar di dalam modal juga diberi bayangan dan efek hover agar tampilannya lebih menarik.
+* Bagian ini mengatur animasi saat modal muncul. Saya menggunakan efek scale agar modal terlihat muncul secara halus. Gambar di dalam modal juga diberi bayangan dan efek hover agar tampilannya lebih menarik.
 
+---
 
 ## 💻 Teknologi yang Digunakan
 
@@ -312,7 +322,7 @@ Dalam pembuatan website portfolio ini, saya menggunakan beberapa teknologi yang 
 
 ---
 
-### 🧱 HTML
+### 🏷️ HTML
 
 HTML saya gunakan sebagai struktur utama website. Semua bagian seperti Navbar, Home, About Me, dan Certificates disusun menggunakan elemen HTML agar kontennya terorganisir dengan jelas.
 
@@ -320,11 +330,10 @@ HTML saya gunakan sebagai struktur utama website. Semua bagian seperti Navbar, H
 
 Penjelasan :
 
-* HTML saya gunakan sebagai struktur utama website. Pada bagian ini terdapat 
-`<!DOCTYPE html>` sebagai deklarasi tipe dokumen, tag `<html>` sebagai root utama, 
-serta bagian `<head>` yang berisi pengaturan seperti charset, viewport, dan title.
+* HTML saya gunakan sebagai struktur utama website. Pada bagian ini terdapat `<!DOCTYPE html>` sebagai deklarasi tipe dokumen, tag `<html>` sebagai root utama, serta bagian `<head>` yang berisi pengaturan seperti charset, viewport, dan title.
 
 ---
+
 #### Navbar
 
 <img width="635" height="30" alt="Screenshot 2026-03-01 124407" src="https://github.com/user-attachments/assets/81198d52-c15c-43b6-89bc-875247e57ae0" />
@@ -335,7 +344,7 @@ Penjelasan :
 
 ---
 
-### Pembagian Section
+#### Pembagian Section
 
 <img width="505" height="34" alt="Screenshot 2026-03-01 124503" src="https://github.com/user-attachments/assets/9416cba2-a2aa-4351-9036-5729b52b04a2" />
 
@@ -349,12 +358,12 @@ Elemen section digunakan untuk membagi halaman menjadi beberapa bagian utama. Se
 
 ---
 
-### 🎨 CSS
+### 🏷️ CSS
 
 CSS saya gunakan untuk mengatur tampilan visual website agar terlihat lebih rapi, menarik, dan memiliki identitas desain yang konsisten. Jika HTML berfungsi sebagai struktur, maka CSS berperan dalam mempercantik tampilannya.
 
 
-### Styling Hero Section
+#### Styling Hero Section
 
 <img width="243" height="120" alt="image" src="https://github.com/user-attachments/assets/78bddb56-551f-455a-97d7-71678b7d2c33" />
 
@@ -365,7 +374,7 @@ Padding ini membuat konten tidak terlalu menempel dengan navbar maupun section b
 
 ---
 
-### Styling About Section
+#### Styling About Section
 
 <img width="759" height="240" alt="image" src="https://github.com/user-attachments/assets/fae877b7-7227-4f88-a82e-56d7a6c34e80" />
 
@@ -375,7 +384,7 @@ Penjelasan :
 
 ---
 
-### Styling Skill Bar
+#### Styling Skill Bar
 
 <img width="464" height="559" alt="image" src="https://github.com/user-attachments/assets/c022bd10-f114-48d7-826c-73219bfa7eb0" />
 
@@ -386,17 +395,17 @@ Penjelasan :
 
 ---
 
-### Styling About Card
+#### Styling About Card
 
 <img width="451" height="368" alt="image" src="https://github.com/user-attachments/assets/bbc7c4aa-18e4-42b7-ae1b-0ba8dc9d46d1" />
 
 Penjelasan :
 
-*Class ini digunakan untuk membuat tampilan card lebih modern dengan efek blur dan bayangan. Efek hover ditambahkan agar card terasa interaktif saat disentuh kursor.
+* Class ini digunakan untuk membuat tampilan card lebih modern dengan efek blur dan bayangan. Efek hover ditambahkan agar card terasa interaktif saat disentuh kursor.
 
 ---
 
-### Styling Certificates Section
+#### Styling Certificates Section
 
 <img width="194" height="93" alt="Screenshot 2026-03-01 140027" src="https://github.com/user-attachments/assets/6f802495-2be0-469a-bdda-9d814b2c3331" />
 
@@ -406,11 +415,11 @@ Penjelasan :
 
 ---
 
-### Bootstrap 5
+### 🏷️ Bootstrap 5
 
 Bootstrap 5 saya gunakan untuk membantu membuat layout yang responsif tanpa harus menulis semuanya dari awal. Dengan Bootstrap, saya bisa menggunakan sistem grid dan komponen siap pakai.
 
-### CDN Bootstrap
+#### CDN Bootstrap
 
 <img width="998" height="63" alt="image" src="https://github.com/user-attachments/assets/5aa7230e-2ce6-4e48-9f68-94fa6f117144" />
 
@@ -421,17 +430,17 @@ Penjelasan :
 
 ---
 
-### Grid System
+#### Grid System
 
 <img width="515" height="101" alt="image" src="https://github.com/user-attachments/assets/2f160262-9919-4cef-a269-0fd068c140f5" />
 
 Penjelasan:
 
-Saya menggunakan container, row, dan col untuk membagi layout menjadi beberapa kolom. Dengan sistem ini, tampilan akan otomatis menyesuaikan ukuran layar tanpa perlu membuat media query manual.
+* Saya menggunakan container, row, dan col untuk membagi layout menjadi beberapa kolom. Dengan sistem ini, tampilan akan otomatis menyesuaikan ukuran layar tanpa perlu membuat media query manual.
 
 ---
 
-### Navbar
+#### Navbar
 
 <img width="637" height="34" alt="image" src="https://github.com/user-attachments/assets/ec78dd40-a8cf-4fdd-b029-5cf6f3ad6be4" />
 
@@ -441,13 +450,13 @@ Penjelasan :
 
 ---
 
-### Vue JS
+### 🏷️ Vue JS
 
 Vue JS saya gunakan untuk menampilkan data yang lebih dinamis, terutama pada bagian Skills dan Certificates. Vue saya gunakan untuk mengelola data seperti daftar skill dan sertifikat. Dengan `v-for`, saya bisa menampilkan data secara otomatis berdasarkan array yang sudah saya buat di dalam `createApp()`. Jika saya menambahkan data baru di dalam array, tampilannya akan langsung ikut bertambah tanpa perlu menulis ulang HTML secara manual. Walaupun menggunakan Vue, website ini tetap bersifat statis karena data tidak diambil dari database atau API eksternal.
 
 ---
 
-### CDN Vue
+#### CDN Vue
 
 <img width="657" height="70" alt="image" src="https://github.com/user-attachments/assets/9ee85b46-1217-451f-a205-332b56e0822f" />
 
@@ -457,17 +466,17 @@ Penjelasan :
 
 ---
 
-### createApp()
+#### createApp()
 
 <img width="744" height="799" alt="image" src="https://github.com/user-attachments/assets/65d78db0-005b-48bf-bc34-107d682c49db" />
 
 Penjelasan:
 
-Saya membuat instance Vue menggunakan createApp(). Data seperti skills dan certificates disimpan dalam bentuk array agar bisa ditampilkan secara otomatis ke dalam HTML.
+* Saya membuat instance Vue menggunakan createApp(). Data seperti skills dan certificates disimpan dalam bentuk array agar bisa ditampilkan secara otomatis ke dalam HTML.
 
 ---
 
-### v-for dan Interpolasi
+#### v-for dan Interpolasi
 <img width="480" height="36" alt="image" src="https://github.com/user-attachments/assets/1a41a2a5-46de-4f41-8275-bb1b0ee03b29" />
 
 <img width="826" height="40" alt="image" src="https://github.com/user-attachments/assets/a9486f1c-c077-4b0a-9b1d-0eac339c2f2f" />
