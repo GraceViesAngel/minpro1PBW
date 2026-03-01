@@ -260,3 +260,45 @@ Penjelasan :
 
 * Pada bagian ini saya membuat section certificates untuk menampilkan daftar sertifikat yang pernah saya peroleh. Section ini dibuat terpisah agar lebih rapi dan mudah diakses melalui menu navigasi. Struktur layout menggunakan container dan sistem grid Bootstrap supaya tampilannya tetap teratur dan responsif. Setiap sertifikat ditampilkan menggunakan perulangan v-for dari Vue, sehingga data bisa ditambahkan langsung dari bagian JavaScript tanpa perlu menulis ulang kode HTML. Di dalam setiap item terdapat gambar sertifikat, tombol detail untuk melihat lebih detail isi dari sertifikat yang saya peroleh
 
+---
+### Styling Section Certificates (CSS)
+
+
+1️⃣ Tampilan Card Sertifikat
+
+<img width="496" height="430" alt="image" src="https://github.com/user-attachments/assets/5dd2aa60-412f-4acb-895a-a0cb0f60f8f7" />
+
+Penjelasan :
+
+Class .cert-item digunakan sebagai wadah utama untuk setiap sertifikat. Saya memberikan background transparan dan efek blur agar tampilannya terlihat lebih modern. Border-radius dan box-shadow ditambahkan supaya card tidak terlihat datar.
+
+---
+
+2️⃣ Styling Gambar Sertifikat
+
+<img width="524" height="280" alt="image" src="https://github.com/user-attachments/assets/26b07471-fab1-4363-9571-315fef42adca" />
+
+
+Penjelasan :
+
+Class .cert-img digunakan untuk mengatur sudut gambar agar sedikit membulat dan diberi bayangan. Efek hover ditambahkan supaya gambar sedikit membesar saat diarahkan kursor, sehingga terlihat lebih interaktif.
+
+---
+
+3️⃣ Styling Tombol Detail
+
+<img width="488" height="479" alt="image" src="https://github.com/user-attachments/assets/341a633c-8a72-4037-9f2a-a2b53db32ebd" />
+
+Penjelasan :
+
+Class .detail-btn digunakan untuk mengatur tampilan tombol detail. Saya menambahkan border, warna background, serta efek hover agar tombol berubah warna ketika disentuh kursor. Ini bertujuan supaya tombol terlihat jelas dan mudah dikenali.
+
+---
+
+4️⃣ Styling Modal
+
+<img width="522" height="586" alt="image" src="https://github.com/user-attachments/assets/f08e9084-4abd-4760-ba1c-4e00b094c3d7" />
+
+Penjelasan :
+
+Bagian ini mengatur animasi saat modal muncul. Saya menggunakan efek scale agar modal terlihat muncul secara halus. Gambar di dalam modal juga diberi bayangan dan efek hover agar tampilannya lebih menarik.
