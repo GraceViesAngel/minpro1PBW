@@ -10,7 +10,7 @@
 
 ### Website Grace Vies Angel
 
-<img width="1588" height="4420" alt="_D__minpro1web_index html (2)" src="https://github.com/user-attachments/assets/85a79ab4-6431-4805-8732-92fc81ecc86e" />
+<img width="1388" height="4420" alt="_D__minpro1web_index html (2)" src="https://github.com/user-attachments/assets/85a79ab4-6431-4805-8732-92fc81ecc86e" />
 
 
 
