@@ -355,7 +355,7 @@ Penjelasan :
 
 Penjelasan :
 
-Elemen section digunakan untuk membagi halaman menjadi beberapa bagian utama. Setiap section diberi atribut id agar bisa terhubung dengan menu navigasi melalui anchor link. Dengan cara ini, ketika menu diklik, halaman akan langsung scroll ke bagian yang dituju tanpa perlu berpindah halaman.
+* Elemen section digunakan untuk membagi halaman menjadi beberapa bagian utama. Setiap section diberi atribut id agar bisa terhubung dengan menu navigasi melalui anchor link. Dengan cara ini, ketika menu diklik, halaman akan langsung scroll ke bagian yang dituju tanpa perlu berpindah halaman.
 
 ---
 
