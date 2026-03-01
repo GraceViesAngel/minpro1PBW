@@ -8,6 +8,13 @@
 
 ---
 
+### Website Grace Vies Angel
+
+<img width="1588" height="4420" alt="_D__minpro1web_index html (2)" src="https://github.com/user-attachments/assets/85a79ab4-6431-4805-8732-92fc81ecc86e" />
+
+
+
+---
 ## 📌 Deskripsi Project
 
 Website ini merupakan project portfolio pribadi yang saya buat sebagai bagian dari tugas mata kuliah Pemrograman Berbasis Web. Website ini berisi informasi mengenai diri saya, mulai dari perkenalan singkat, kemampuan yang saya miliki, pengalaman organisasi, hingga sertifikat yang pernah saya peroleh. Tujuan dari pembuatan website ini untuk menampilkan profil diri dalam bentuk website yang terstruktur dan responsif.
@@ -484,4 +491,4 @@ Penjelasan:
 
 Penjelasan:
 
-Directive v-for digunakan untuk melakukan perulangan data. Interpolasi {{ }} digunakan untuk menampilkan nilai dari data Vue ke dalam HTML. Dengan cara ini, jika saya menambahkan data baru ke dalam array, tampilannya akan langsung bertambah tanpa perlu menulis ulang struktur HTML.
+* Directive v-for digunakan untuk melakukan perulangan data. Interpolasi {{ }} digunakan untuk menampilkan nilai dari data Vue ke dalam HTML. Dengan cara ini, jika saya menambahkan data baru ke dalam array, tampilannya akan langsung bertambah tanpa perlu menulis ulang struktur HTML.
