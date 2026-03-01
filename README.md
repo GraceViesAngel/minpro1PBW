@@ -171,6 +171,8 @@ Penjelasan :
 
 ### > Kode Section About Me
 
+<img width="642" height="859" alt="image" src="https://github.com/user-attachments/assets/c5db681a-00b4-49ea-b7e9-f8c02feca58d" />
+
 Penjelasan :
 
 * Pada bagian About ini, saya membagi konten menjadi tiga kolom yaitu Deskripsi Diri, Skills, dan Pengalaman. Layout dibuat menggunakan sistem grid Bootstrap agar tampil sejajar di layar besar dan otomatis menyesuaikan di layar kecil. Struktur ini dibuat supaya informasi tentang diri saya tersusun rapi dan mudah dibaca.
@@ -302,3 +304,174 @@ Class .detail-btn digunakan untuk mengatur tampilan tombol detail. Saya menambah
 Penjelasan :
 
 Bagian ini mengatur animasi saat modal muncul. Saya menggunakan efek scale agar modal terlihat muncul secara halus. Gambar di dalam modal juga diberi bayangan dan efek hover agar tampilannya lebih menarik.
+
+
+## 💻 Teknologi yang Digunakan
+
+Dalam pembuatan website portfolio ini, saya menggunakan beberapa teknologi yang sudah saya pelajari, yaitu HTML, CSS, Bootstrap 5, dan Vue JS. Setiap teknologi memiliki fungsi yang berbeda dalam membangun struktur, tampilan, dan interaktivitas website.
+
+---
+
+### 🧱 HTML
+
+HTML saya gunakan sebagai struktur utama website. Semua bagian seperti Navbar, Home, About Me, dan Certificates disusun menggunakan elemen HTML agar kontennya terorganisir dengan jelas.
+
+<img width="697" height="145" alt="image" src="https://github.com/user-attachments/assets/1a377b20-3aaf-4fcb-ac91-805eb6c823b7" />
+
+Penjelasan :
+
+* HTML saya gunakan sebagai struktur utama website. Pada bagian ini terdapat 
+`<!DOCTYPE html>` sebagai deklarasi tipe dokumen, tag `<html>` sebagai root utama, 
+serta bagian `<head>` yang berisi pengaturan seperti charset, viewport, dan title.
+
+---
+#### Navbar
+
+<img width="635" height="30" alt="Screenshot 2026-03-01 124407" src="https://github.com/user-attachments/assets/81198d52-c15c-43b6-89bc-875247e57ae0" />
+
+Penjelasan :
+
+* Navbar digunakan sebagai menu navigasi utama pada website. Saya menggunakan class bawaan Bootstrap seperti navbar dan navbar-expand-lg agar tampilan navigasi responsif dan otomatis menyesuaikan ukuran layar. Bagian ini berfungsi untuk menghubungkan pengguna ke section seperti Home, About, dan Certificates dalam satu halaman.
+
+---
+
+### Pembagian Section
+
+<img width="505" height="34" alt="Screenshot 2026-03-01 124503" src="https://github.com/user-attachments/assets/9416cba2-a2aa-4351-9036-5729b52b04a2" />
+
+<img width="427" height="29" alt="Screenshot 2026-03-01 124520" src="https://github.com/user-attachments/assets/c2b3a8eb-3c78-4a82-9b50-b9d442b49a8d" />
+
+<img width="582" height="33" alt="Screenshot 2026-03-01 124534" src="https://github.com/user-attachments/assets/9dc95ac3-2f05-49e8-be6c-db325270b6a5" />
+
+Penjelasan :
+
+Elemen section digunakan untuk membagi halaman menjadi beberapa bagian utama. Setiap section diberi atribut id agar bisa terhubung dengan menu navigasi melalui anchor link. Dengan cara ini, ketika menu diklik, halaman akan langsung scroll ke bagian yang dituju tanpa perlu berpindah halaman.
+
+---
+
+### 🎨 CSS
+
+CSS saya gunakan untuk mengatur tampilan visual website agar terlihat lebih rapi, menarik, dan memiliki identitas desain yang konsisten. Jika HTML berfungsi sebagai struktur, maka CSS berperan dalam mempercantik tampilannya.
+
+
+### Styling Hero Section
+
+<img width="243" height="120" alt="image" src="https://github.com/user-attachments/assets/78bddb56-551f-455a-97d7-71678b7d2c33" />
+
+Penjelasan :
+
+* Class .hero-section digunakan untuk mengatur jarak atas dan bawah pada bagian Home.
+Padding ini membuat konten tidak terlalu menempel dengan navbar maupun section berikutnya sehingga tampilan nyaman dilihat.
+
+---
+
+### Styling About Section
+
+<img width="759" height="240" alt="image" src="https://github.com/user-attachments/assets/fae877b7-7227-4f88-a82e-56d7a6c34e80" />
+
+Penjelasan :
+
+* Bagian About menggunakan background gradient dengan animasi agar tidak terlihat statis. Efek ini membuat tampilan lebih hidup dan modern.
+
+---
+
+### Styling Skill Bar
+
+<img width="464" height="559" alt="image" src="https://github.com/user-attachments/assets/c022bd10-f114-48d7-826c-73219bfa7eb0" />
+
+
+Penjelasan :
+
+* Skill bar dibuat untuk menampilkan tingkat kemampuan secara visual. Animasi digunakan agar bar terlihat terisi secara halus saat halaman dimuat.
+
+---
+
+### Styling About Card
+
+<img width="451" height="368" alt="image" src="https://github.com/user-attachments/assets/bbc7c4aa-18e4-42b7-ae1b-0ba8dc9d46d1" />
+
+Penjelasan :
+
+*Class ini digunakan untuk membuat tampilan card lebih modern dengan efek blur dan bayangan. Efek hover ditambahkan agar card terasa interaktif saat disentuh kursor.
+
+---
+
+### Styling Certificates Section
+
+<img width="194" height="93" alt="Screenshot 2026-03-01 140027" src="https://github.com/user-attachments/assets/6f802495-2be0-469a-bdda-9d814b2c3331" />
+
+Penjelasan :
+
+* Bagian Certificates diberi jarak atas dan bawah agar tidak terlalu rapat dengan section lainnya dan tetap konsisten dengan desain keseluruhan.
+
+---
+
+### Bootstrap 5
+
+Bootstrap 5 saya gunakan untuk membantu membuat layout yang responsif tanpa harus menulis semuanya dari awal. Dengan Bootstrap, saya bisa menggunakan sistem grid dan komponen siap pakai.
+
+### CDN Bootstrap
+
+<img width="998" height="63" alt="image" src="https://github.com/user-attachments/assets/5aa7230e-2ce6-4e48-9f68-94fa6f117144" />
+
+Penjelasan :
+
+* Bootstrap dihubungkan melalui CDN agar bisa langsung menggunakan class bawaan tanpa perlu mengunduh file secara manual.
+
+
+---
+
+### Grid System
+
+<img width="515" height="101" alt="image" src="https://github.com/user-attachments/assets/2f160262-9919-4cef-a269-0fd068c140f5" />
+
+Penjelasan:
+
+Saya menggunakan container, row, dan col untuk membagi layout menjadi beberapa kolom. Dengan sistem ini, tampilan akan otomatis menyesuaikan ukuran layar tanpa perlu membuat media query manual.
+
+---
+
+### Navbar
+
+<img width="637" height="34" alt="image" src="https://github.com/user-attachments/assets/ec78dd40-a8cf-4fdd-b029-5cf6f3ad6be4" />
+
+Penjelasan :
+
+* Class navbar dan navbar-expand-lg berasal dari Bootstrap dan digunakan untuk membuat navigasi yang responsif. Menu akan tampil horizontal di layar besar dan berubah menjadi toggle di layar kecil.
+
+---
+
+### Vue JS
+
+Vue JS saya gunakan untuk menampilkan data yang lebih dinamis, terutama pada bagian Skills dan Certificates. Vue saya gunakan untuk mengelola data seperti daftar skill dan sertifikat. Dengan `v-for`, saya bisa menampilkan data secara otomatis berdasarkan array yang sudah saya buat di dalam `createApp()`. Jika saya menambahkan data baru di dalam array, tampilannya akan langsung ikut bertambah tanpa perlu menulis ulang HTML secara manual. Walaupun menggunakan Vue, website ini tetap bersifat statis karena data tidak diambil dari database atau API eksternal.
+
+---
+
+### CDN Vue
+
+<img width="657" height="70" alt="image" src="https://github.com/user-attachments/assets/9ee85b46-1217-451f-a205-332b56e0822f" />
+
+Penjelasan :
+
+* Vue dihubungkan melalui CDN agar bisa langsung digunakan dalam file HTML.
+
+---
+
+### createApp()
+
+<img width="744" height="799" alt="image" src="https://github.com/user-attachments/assets/65d78db0-005b-48bf-bc34-107d682c49db" />
+
+Penjelasan:
+
+Saya membuat instance Vue menggunakan createApp(). Data seperti skills dan certificates disimpan dalam bentuk array agar bisa ditampilkan secara otomatis ke dalam HTML.
+
+---
+
+### v-for dan Interpolasi
+<img width="480" height="36" alt="image" src="https://github.com/user-attachments/assets/1a41a2a5-46de-4f41-8275-bb1b0ee03b29" />
+
+<img width="826" height="40" alt="image" src="https://github.com/user-attachments/assets/a9486f1c-c077-4b0a-9b1d-0eac339c2f2f" />
+
+Penjelasan:
+
+Directive v-for digunakan untuk melakukan perulangan data. Interpolasi {{ }} digunakan untuk menampilkan nilai dari data Vue ke dalam HTML. Dengan cara ini, jika saya menambahkan data baru ke dalam array, tampilannya akan langsung bertambah tanpa perlu menulis ulang struktur HTML.
