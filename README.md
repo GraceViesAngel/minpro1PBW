@@ -1,9 +1,10 @@
 # <h1 align="center">🌐 Portfolio Website</h1>
 
+---
 
-## NAMA : Grace Vies Angel 
-## NIM : 2409116005
-## KELAS : A'2024
+### NAMA : Grace Vies Angel 
+### NIM : 2409116005
+### KELAS : A'2024
 
 ---
 
